@@ -9,3 +9,4 @@ This `readme.md` contains all the files created in this activity as well as thei
 | Filename | Description |
 | ------------------- | ---------------------------------- |
 | `0-preprocessor` | A script that runs a C file through thepreprocessorand save the result into another file. |
+| `1-compiler` | A script that compiles a C file but does not link. |
