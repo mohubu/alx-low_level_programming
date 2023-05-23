@@ -10,3 +10,4 @@ This module deals with the control process of the C programming language. It tea
 | `1-last_digit` | A C program that will assign a random number to the variable `n` each time it is executed. the variable `n` will  store a different value everytime the program runs. If the last digit of `n` is greater than 5: the string ` and is greater than 5.` If the last digit of `n` is 0: the string `and is 0`. If the last digit of `n` is less than 6 and not 0:the string `and is 0`|
 | `2-print_alphabet.c` | A program that prints the alphabet inlowercase, followed by a newline using olnly 	putchar`.|
 | `3-print-alphabets.c` | A program that prints the alphabet in lowercase, and then in uppercase, followed by a newline. You can only use `putchar` three times in your code. |
+| `4-print_alphabt.c` | A program that prints the alphabet in lowercase, followed by a new line. |
