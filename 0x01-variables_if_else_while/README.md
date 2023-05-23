@@ -11,3 +11,4 @@ This module deals with the control process of the C programming language. It tea
 | `2-print_alphabet.c` | A program that prints the alphabet inlowercase, followed by a newline using olnly 	putchar`.|
 | `3-print-alphabets.c` | A program that prints the alphabet in lowercase, and then in uppercase, followed by a newline. You can only use `putchar` three times in your code. |
 | `4-print_alphabt.c` | A program that prints the alphabet in lowercase, followed by a new line. |
+| `5-print_numbers.c` | A program that prints all single digit numbers of base 10 starting from `0`, follow ed by a new line.|
