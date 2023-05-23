@@ -15,6 +15,4 @@ This module deals with the control process of the C programming language. It tea
 | `6-print_numberz.c` | A program that prints all single digit numbers of base 10 starting from `0`, followed by a new line. |
 | `7-print_tebahpla.c` | A program that prints the lowercase alphabet in reverse, followed by a new line. |
 | `8-print_base16.c` | A program that prints all the numbers of base 16 in lowercase, followed by a newline. |
-| `9-print_comb.c` | A program that prints all possible combinations of single-digit numbers. |
-| `100-print_comb3.c` | A program that prints all possible different combinations of two digits. |
-
+| `9-print_comb.c` | A program that prints all possible co
