@@ -11,3 +11,4 @@
 | `4-isalpha` | A function that checks for alphebetic character. |
 | `5-sign` | A function that prints the sign of a number. |
 | `6-abs` | A function that computes the absolute value of an integer. |
+| `7-print_last_digit` | A function that prints the lastdigit of a number. |
