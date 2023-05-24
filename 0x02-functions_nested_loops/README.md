@@ -13,3 +13,4 @@
 | `6-abs` | A function that computes the absolute value of an integer. |
 | `7-print_last_digit` | A function that prints the lastdigit of a number. |
 | `8-24` | A function that prints every minute of the day. |
+| `9-times_table` | A function that that prints the 9 times table, starting with 0. |
