@@ -13,3 +13,4 @@
 | `6-print_line.c` | A function that draws a straight line in the terminal. |
 | `7-print_diagonal.c` | A function that draws a diagonal line on the terminal. |
 | `8-print_square.c` | A function taht prints a square, followed by a new line. |
+| `9-fizz_buzz.c` | A function that prints the numbers from `1` to `100`, followed by a new line. But for multiplies of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`. |
