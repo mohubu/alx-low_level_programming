@@ -5,3 +5,4 @@
 | Filename | Description |
 | -----------------------|-------------------------------------|
 | `0-whatsmyname.c` | A function that prints its name, followed by a newline. |
+| `1-args.c` | A function that prints the number of arguments passed to it.|
