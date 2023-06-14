@@ -6,7 +6,7 @@
  * @argc: Number of command-line arguments
  * @argv: Array of command-line arguments
  *
- * Return: 0 on success
+ * Return: 0 on success, 1 on error
  */
 int main(int argc, char *argv[])
 {
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			mul *= atoi(argv[i]);
 		}
@@ -27,3 +27,4 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 }
+
