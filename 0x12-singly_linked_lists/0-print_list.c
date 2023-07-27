@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -9,53 +10,13 @@
 size_t print_list(const list_t *h)
 {
     size_t count = 0;
-    char len_digit;
-    char *str;
 
     while (h != NULL)
     {
-        str = h->str;
-        len_digit = '0';
-
-        if (str == NULL)
-        {
-            _putchar('[');
-            _putchar('0');
-            _putchar(']');
-            _putchar('\t');
-            _putchar('(');
-            _putchar('n');
-            _putchar('i');
-            _putchar('l');
-            _putchar(')');
-            _putchar('\n');
-        }
+        if (h->str == NULL)
+            printf("[0] (nil)\n");
         else
-        {
-            while (h->len > 0)
-            {
-                h->len /= 10;
-                len_digit++;
-            }
-
-            h->len = len_digit;
-
-            _putchar('[');
-            while (h->len > '0')
-            {
-                _putchar(h->len);
-                h->len--;
-            }
-            _putchar(']');
-            _putchar('\t');
-
-            while (*str)
-            {
-                _putchar(*str);
-                str++;
-            }
-            _putchar('\n');
-        }
+            printf("[%u] %s\n", h->len, h->str);
 
         h = h->next;
         count++;
@@ -63,3 +24,4 @@ size_t print_list(const list_t *h)
 
     return count;
 }
+
